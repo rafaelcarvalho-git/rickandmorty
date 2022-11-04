@@ -3,6 +3,7 @@ import './App.css';
 import Character from './components/Character'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar'
+import Pagination from './components/Pagination'
 import React, {useState, useEffect} from 'react'
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
       </section>
       
 
-      
+      <Pagination />
       <Footer />
     </div>
   );

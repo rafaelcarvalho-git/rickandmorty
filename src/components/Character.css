@@ -1,6 +1,6 @@
 .card {
-    max-width: 320px;
-    min-width: 275px; 
+    max-width: 300px;
+    min-width: 260px; 
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.3s;
@@ -9,10 +9,10 @@
     transition-property: transform;   
     cursor: pointer;
 }
-.card img {
-    width: 100%;
-}
 .card:hover, .card:focus, .card:active {
     -webkit-transform: scale(1.04);
     transform: scale(1.04);
+}
+.card h4:hover, .item:hover {
+    color: #8bcf21;
 }
