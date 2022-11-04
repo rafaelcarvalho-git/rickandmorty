@@ -1,0 +1,34 @@
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.social_icon {
+    background: rgb(64, 64, 240);
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    margin: 0 10px 0 10px;
+    display: flex;
+}
+.social_icon svg {
+    align-self: center;
+    margin: auto;
+}
+
+#name {
+    color: white;
+    text-decoration: none;
+}
+#name:hover {
+    color: white;
+}
+
+#wpp {background: #25D366 !important;}
+#ins {background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d) !important;}
+#git {background: #333 !important;}
+#lkd {background: #007bb6 !important;}
+
+#wpp:hover,#ins:hover,#git:hover,#lkd:hover {
+    color: white;
+}
