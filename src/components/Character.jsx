@@ -9,7 +9,7 @@ function Character({results}) {
       var { id, image, name, status, species, gender, origin } = informations;
       return (
         <div key={id} className="col-sm-6 col-lg-4 col-xl-3">
-          <div className="card bg-dark my-4 mx-auto border">
+          <div className="card bg-dark my-4 mx-auto">
           <img className="w-100 rounded-top" src={image} alt="" />          
             <div className="card-header text-center"><h4 className='mt-1'>{name}</h4></div>
             <div className="card-body">

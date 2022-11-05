@@ -8,7 +8,7 @@ function SearchBar({setSearch, setPageNumber}) {
                 setPageNumber(1);
                 setSearch(e.target.value);
             }}/>   
-            <span className="rounded ms-2 bg-primary"><BsSearch className="align-self-item mt-2"/></span>
+            <span className="rounded ms-2"><BsSearch className="align-self-item mt-2"/></span>
         </div>        
     );
 }

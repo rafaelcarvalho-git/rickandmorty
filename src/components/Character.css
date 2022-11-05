@@ -8,6 +8,7 @@
     -webkit-transition-property: transform;
     transition-property: transform;   
     cursor: pointer;
+    border-color: #62a4ab;
 }
 .card:hover, .card:focus, .card:active {
     -webkit-transform: scale(1.04);
@@ -15,4 +16,7 @@
 }
 .card h4:hover, .item:hover {
     color: #8bcf21;
-}
+}/*
+.border {
+    background-color: #62a4ab;
+}*/

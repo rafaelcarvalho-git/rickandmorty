@@ -1,0 +1,41 @@
+/*.btn {
+    background: #25D366;
+    text-decoration: none !important;
+    color: white !important;
+}*/
+
+/*color: #25D366;*/
+/*color: #62a4ab;*/
+/*
+
+.btn-info {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #25D366;
+    --bs-btn-border-color: #25D366;
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #3ea865;
+    --bs-btn-hover-border-color: #10ee61;
+    --bs-btn-focus-shadow-rgb: 11, 172, 204;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #25D366;
+    --bs-btn-active-border-color: #10ee61;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000;
+    --bs-btn-disabled-bg: #25D366;
+    --bs-btn-disabled-border-color: #25D366
+}*/
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+.page-item {
+    background: white;
+    color: white;
+}
+.page-link {
+    background: #62a4ab;;
+    color: white;
+}
+
+.pagination {max-width: 400px;overflow-x: auto;}

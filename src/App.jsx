@@ -2,7 +2,7 @@ import './App.css';
 import Character from './components/Character'
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar'
-import Pagination from './components/Pagination'
+import Pagination from './components/Pagination/Pagination'
 import SearchBar from './components/SearchBar'
 import Header from './components/Header'
 import React, {useState, useEffect} from 'react'

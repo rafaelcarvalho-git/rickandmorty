@@ -18,3 +18,11 @@ header {
         transform: rotate(360deg);
     }
 }
+@media(max-width:420px) {
+    header {
+        flex-direction: column;
+    }
+    header * {
+        margin: auto;
+    }
+}
