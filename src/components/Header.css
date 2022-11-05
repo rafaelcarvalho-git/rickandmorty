@@ -1,0 +1,20 @@
+header {
+    max-width: 540px;
+}
+.App-logo{
+    width: 120px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 24s linear;
+    }
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

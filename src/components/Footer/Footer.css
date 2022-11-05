@@ -1,0 +1,57 @@
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: #25D366;
+    /*color: #62a4ab;*/
+}
+
+.social-icon {
+    background: rgb(64, 64, 240);
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    margin: 0 10px 0 10px;
+    display: flex;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;   
+    cursor: pointer;
+}
+.social-icon svg {
+    align-self: center;
+    margin: auto;
+}
+.social-icon:hover, .social-icon:focus, .social-icon:active {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+#name {
+    color: white;
+    text-decoration: none;
+}
+#name:hover {
+    color: #62a4ab;
+}
+
+#wpp {background: #25D366 !important;}
+#ins {background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d) !important;}
+#git {background: #333 !important;}
+#lkd {background: #007bb6 !important;}
+
+#wpp:hover,#ins:hover,#git:hover,#lkd:hover {
+    color: white;
+}
+@media(max-width:425px) {
+    .social {
+        margin-top: 15px;
+    }
+    .social:hover {
+        transform: none;
+    } 
+}

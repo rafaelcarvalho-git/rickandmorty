@@ -1,10 +1,10 @@
-//import logo from './logo.svg';
 import './App.css';
 import Character from './components/Character'
-import Footer from './components/Footer';
-import Navbar from './components/Navbar'
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar'
 import Pagination from './components/Pagination'
 import SearchBar from './components/SearchBar'
+import Header from './components/Header'
 import React, {useState, useEffect} from 'react'
 
 function App() {  
@@ -17,7 +17,6 @@ function App() {
   useEffect(()=>{ //espera o carregamento e carrega os dados da api, quando o pageNumber muda a api é carregada novamente
     (async function(){
         var data = await fetch(api).then(response=>response.json())
-        //console.log(data.results);
         updateFetchedData(data);
     })()
   },[api])
@@ -25,18 +24,16 @@ function App() {
   return (
     <div>
       <Navbar />
-      <header className="App-header">
-        <h1>React Rick and Morty</h1>
-      </header>
+      
+      <Header />
 
-      <SearchBar setPageNumber={setPageNumber} setSearch={setSearch}/>
+      <SearchBar setPageNumber={setPageNumber} setSearch={setSearch} />
       
       <section className='row mx-auto flex-wrap'>
-        <Character results={results}/>
-      </section>
-      
+        <Character results={results} />
+      </section>      
 
-      <Pagination info={info} pageNumber={pageNumber} setPageNumber={setPageNumber}/>
+      <Pagination info={info} pageNumber={pageNumber} setPageNumber={setPageNumber} />
       <Footer />
     </div>
   );
