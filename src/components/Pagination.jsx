@@ -1,20 +1,21 @@
-function Pagination() {
+import ReactPaginate from 'react-paginate';
+
+function Pagination({info, pageNumber, setPageNumber}) {
     return (
-            <ul class="pagination justify-content-center">
-                <li class="page-item">
-                <a class="page-link" href="#" aria-label="Anterior">
-                    <span aria-hidden="true">&laquo;</span>
-                </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                <a class="page-link" href="#" aria-label="Próximo">
-                    <span aria-hidden="true">&raquo;</span>
-                </a>
-                </li>
-            </ul>
+        <ReactPaginate className='pagination justify-content-center gap-1' 
+            pageCount={info?.pages} 
+            nextLabel = "Next"
+            nextClassName ='btn btn-info'
+            previousLabel = "Prev"
+            previousClassName ='btn btn-info'
+            pageClassName ='page-item rounded'
+            pageLinkClassName ='page-link rounded'
+            activeClassName = 'active'
+            onPageChange={(data)=>{
+                setPageNumber(data.selected + 1);
+            }}
+            forcePage={pageNumber === 1 ? 0 : pageNumber - 1}
+        />
     );
 }
 export default Pagination;
