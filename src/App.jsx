@@ -1,10 +1,10 @@
 import './App.css';
-import Character from './components/Character'
+import Character from './components/CharacterCard/Character'
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar'
 import Pagination from './components/Pagination/Pagination'
-import SearchBar from './components/SearchBar'
-import Header from './components/Header'
+import SearchBar from './components/SearchBar/SearchBar'
+import Header from './components/Header/Header'
 import React, {useState, useEffect} from 'react'
 
 function App() {  
@@ -29,7 +29,7 @@ function App() {
 
       <SearchBar setPageNumber={setPageNumber} setSearch={setSearch} />
       
-      <section className='row mx-auto flex-wrap'>
+      <section className="row mx-auto flex-wrap">
         <Character results={results} />
       </section>      
 

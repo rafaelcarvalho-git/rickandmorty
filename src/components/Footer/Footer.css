@@ -4,7 +4,7 @@ footer a {
 }
 footer a:hover {
     color: #25D366;
-    /*color: #62a4ab;*/
+    /*color: #4ab6c2;*/
 }
 
 .social-icon {
@@ -36,7 +36,7 @@ footer a:hover {
     text-decoration: none;
 }
 #name:hover {
-    color: #62a4ab;
+    color: #4ab6c2;
 }
 
 #wpp {background: #25D366 !important;}

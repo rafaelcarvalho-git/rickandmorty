@@ -1,6 +1,5 @@
 import './Character.css';
-import React, {useState, useEffect} from 'react';
-import NotFound from './NotFound';
+import NotFound from '../NotFound/NotFound';
 
 function Character({results}) {
   var display;
@@ -19,15 +18,15 @@ function Character({results}) {
                         <h6 className="mt-1 ms-3 rounded border py-1 px-2">{status}</h6>
                     </div>
                     <div className="item d-flex align-items-center"> 
-                        <h5>Espécie:</h5>
+                        <h5>Species:</h5>
                         <h6 className="mt-1 ms-3 rounded border py-1 px-2">{species}</h6>
                     </div>
                     <div className="item d-flex align-items-center"> 
-                        <h5>Gênero:</h5>
+                        <h5>Genre:</h5>
                         <h6 className="mt-1 ms-3 rounded border py-1 px-2">{gender}</h6>
                     </div>
                     <div className="item d-flex align-items-center"> 
-                        <h5>Origem:</h5>
+                        <h5>Origin:</h5>
                         <h6 className="mt-1 ms-3 rounded border py-1 px-2">{origin.name}</h6>
                     </div>
                 </div> 

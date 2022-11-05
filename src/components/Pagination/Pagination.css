@@ -5,7 +5,7 @@
 }*/
 
 /*color: #25D366;*/
-/*color: #62a4ab;*/
+/*color: #4ab6c2;*/
 /*
 
 .btn-info {
@@ -27,15 +27,26 @@
 
 .link {
     text-decoration: none;
-    color: black;
-}
-.page-item {
-    background: white;
-    color: white;
-}
-.page-link {
-    background: #62a4ab;;
-    color: white;
+    color: white !important;
 }
 
-.pagination {max-width: 400px;overflow-x: auto;}
+
+.pagination {max-width: 400px;}
+@media(max-width:345px){
+    .hid {
+        display: none;
+    }
+}
+
+
+.btn-pg {
+    background: #4ab6c2;
+    color: white;
+    --bs-btn-disabled-bg: #4ab6c2;
+    --bs-btn-disabled-border-color:#4ab6c2;
+    --bs-btn-hover-bg: #16c9dd;    
+}
+
+.link-active {
+    background: #16c9dd;
+}

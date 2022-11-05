@@ -6,12 +6,12 @@ function Pagination({info, pageNumber, setPageNumber}) {
         <ReactPaginate className="pagination justify-content-center mx-auto gap-1" 
             pageCount={info?.pages} 
             nextLabel = "Next"
-            nextClassName ="btn btn-info"
+            nextClassName ="btn btn-pg"
             previousLabel = "Prev"
-            previousClassName ="btn btn-info"
-            pageClassName ="page-item rounded"
-            pageLinkClassName ="page-link rounded"
-            activeClassName = ""
+            previousClassName ="btn btn-pg"
+            pageClassName ="btn-pg rounded"
+            pageLinkClassName ="hid btn text-white rounded"
+            activeClassName = "link-active"
             nextLinkClassName = "link"
             previousLinkClassName = "link"
             pageRangeDisplayed={2}
