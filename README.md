@@ -2,7 +2,7 @@
 
 <p>Projeto com react para exibir os personagens da série Rick and Morty utilizando a API.</p>
 
-## Acesse aqui: https://reactrickandmorty.web.app/
+## Acesse aqui: https://reactrickandmorty.firebaseapp.com/
 
 # Tecnologias
 
