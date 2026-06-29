@@ -1,22 +1,22 @@
 .card {
-    max-width: 300px;
-    min-width: 260px; 
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;   
-    cursor: pointer;
-    border-color: #4ab6c2;
+  max-width: 300px;
+  min-width: 260px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  cursor: pointer;
+  border-color: #4ab6c2;
 }
-.card:hover, .card:focus, .card:active {
-    -webkit-transform: scale(1.04);
-    transform: scale(1.04);
+.card:hover,
+.card:focus,
+.card:active {
+  -webkit-transform: scale(1.04);
+  transform: scale(1.04);
 }
-.card h4:hover, .item:hover {
-    color: #8bcf21;
-}/*
-.border {
-    background-color: #4ab6c2;
-}*/
+.card h4:hover,
+.item:hover {
+  color: #8bcf21;
+}

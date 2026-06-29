@@ -1,14 +1,16 @@
 .search-bar {
-    max-width: 600px;
+  max-width: 600px;
 }
+
 .search-bar span {
-    width: 40px;
-    text-align: center;
-    align-items: center;
-    background: #4ab6c2;
+  width: 40px;
+  text-align: center;
+  align-items: center;
+  background: #4ab6c2;
 }
-@media(max-width:700px) {
-    .search-bar {
-        width: 75%;
-    }
+
+@media (max-width: 700px) {
+  .search-bar {
+    width: 75%;
+  }
 }
