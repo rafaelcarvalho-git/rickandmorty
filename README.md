@@ -1,32 +1,41 @@
-<h1>React Rick and Morty</h1>
+<div align="center">
+  <img src="./src/components/Header/logo.svg" alt="Rick and Morty App Logo" width="200">
+  
+  # 🛸 React Rick and Morty
+  
+  **Explore o multiverso: busque personagens, navegue por dimensões e consuma dados em tempo real.**
 
-<p>Projeto com react para exibir os personagens da série Rick and Morty utilizando a API.</p>
+  [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+  [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+  [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 
-## Acesse aqui: https://reactrickandmorty.web.app/
-
-# Tecnologias
-
-<div class="align-items-center">
-  <h5><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40px"/>React</h5>
 </div>
 
-<div class="align-items-center">
-  <h5><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40px"/>Html</h5>
-</div>
+---
 
-<div class="align-items-center">
-  <h5><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40px"/>Css</h5>
-</div>
+## 🚀 Sobre o Projeto
 
-<div class="align-items-center">
-  <h5><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40px"/>Javascript</h5>
-</div>
+O **Rick and Morty Explorer** é uma aplicação web focada em catalogar e buscar informações do universo da série. Desenvolvido como um marco de consolidação de fundamentos front-end no início da jornada profissional, o sistema consome ativamente a *The Rick and Morty REST API*.
 
-<div class="align-items-center">
-  <h5><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40px"/>Bootstrap</h5>
-</div>
-            
+O objetivo central desta construção foi dominar o ciclo de vida de componentes no React, aplicar conceitos de arquitetura modular, gerenciar estados globais/locais e lidar com requisições HTTP assíncronas, garantindo uma interface responsiva e organizada.
 
-### API
+---
 
-- [The Rick and Morty API](https://rickandmortyapi.com/)
+## ✨ Funcionalidades Principais
+
+- 🔍 **Busca Dinâmica:** Barra de pesquisa (`SearchBar`) que filtra personagens em tempo real conforme a digitação do usuário.
+- 📄 **Paginação Integrada:** Navegação fluida entre centenas de registros utilizando o componente de paginação (`Pagination`) para não sobrecarregar a renderização.
+- 🃏 **Cards de Personagens:** Exibição modular detalhada (`CharacterCard`) contendo imagem, status de vida, espécie e localização de cada personagem.
+- 🚦 **Tratamento de Exceções:** Sistema de roteamento amigável com página `NotFound` customizada para URLs inexistentes.
+- 🎨 **Componentização CSS:** Estilização isolada por escopo (arquivos `.css` dedicados para cada componente), evitando conflitos e facilitando manutenção.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Linguagem / Biblioteca:** JavaScript + React
+- **Arquitetura Visual:** CSS3 com escopo por componente
+- **Consumo de Dados:** Fetch API / Integração RESTful
+- **Estrutura de UI:** Componentes customizados (`Navbar`, `Header`, `Footer`)
+
+---
