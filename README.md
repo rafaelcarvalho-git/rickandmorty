@@ -13,6 +13,14 @@
 
 ---
 
+## 🌐 Live Demo
+
+Acesse a aplicação em produção e teste as funcionalidades em tempo real:
+
+🔗 **[Visitar Rick and Morty Explorer na Vercel](https://reactrickandmortyproject.vercel.app/)**
+
+---
+
 ## 🚀 Sobre o Projeto
 
 O **Rick and Morty Explorer** é uma aplicação web focada em catalogar e buscar informações do universo da série. Desenvolvido como um marco de consolidação de fundamentos front-end no início da jornada profissional, o sistema consome ativamente a *The Rick and Morty REST API*.
