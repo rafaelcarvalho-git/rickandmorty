@@ -19,13 +19,13 @@
 
 Acesse a aplicação em produção e teste as funcionalidades em tempo real:
 
-🔗 **[Visitar Rick and Morty Explorer na Vercel](https://reactrickandmortyproject.vercel.app/)**
+🔗 **[Visitar React Rick and Morty na Vercel](https://reactrickandmortyproject.vercel.app/)**
 
 ---
 
 ## 🚀 Sobre o Projeto
 
-O **Rick and Morty Explorer** é uma aplicação web focada em catalogar e buscar informações do universo da série. Desenvolvido como um marco de consolidação de fundamentos front-end, o sistema consome ativamente a *The Rick and Morty REST API*.
+O **React Rick and Morty** é uma aplicação web focada em catalogar e buscar informações do universo da série. Desenvolvido como um marco de consolidação de fundamentos front-end, o sistema consome ativamente a *The Rick and Morty REST API*.
 
 O objetivo central desta construção foi dominar o ciclo de vida de componentes no React, aplicar conceitos de arquitetura modular, gerenciar estados globais/locais e lidar com requisições HTTP assíncronas, garantindo uma interface responsiva e organizada.
 
